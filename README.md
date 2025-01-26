@@ -15,7 +15,7 @@ In this repository i used different clustering techniques applied on two differe
 
 ## Project Overview
 
-This project aims to apply **K-Means Clustering** to two different datasets and analyze the results using dimensionality reduction techniques like **PCA** and **t-SNE**. The clusters are evaluated through different visualizations and analyses to draw insights about the dataset structure and groupings. The following key aspects are explored in this project:
+In this project i apply **K-Means Clustering** to two different datasets and analyze the results using dimensionality reduction techniques like **PCA** and **t-SNE**. The clusters are evaluated through different visualizations and analyses to draw insights about the dataset structure and groupings. The following key aspects are explored in this project:
 
 - **PCA 2D** visualization to reduce the dataset to 2 dimensions and observe clustering patterns.
 - **t-SNE** visualization to further enhance cluster visualization with non-linear dimensionality reduction.
@@ -26,7 +26,11 @@ This project aims to apply **K-Means Clustering** to two different datasets and 
 
 ## Datasets
 
-The project uses two different datasets. Each dataset will be analyzed separately with the same clustering techniques. These datasets may contain various features that describe the data points, and we aim to group them based on their characteristics.
+The project uses two different datasets(Travel Reviews and Sobar Data ). Each dataset will be analyzed separately with the same clustering techniques. These datasets may contain various features that describe the data points, and we aim to group them based on their characteristics. In these two dataset one is clustering data while second one is classification data.
+
+
+Travel Reviews: https://archive.ics.uci.edu/dataset/484/travel+reviews
+Sobar-72: https://www.kaggle.com/datasets/rizqiakbar/sobar-72
 
 ## Techniques Used
 
@@ -53,6 +57,4 @@ A **polar plot** is used to show the distribution of clusters and reveal potenti
 ### Clusters Data with Centroid
 
 The **centroids** of the clusters are visualized on the plot to show the average position of each cluster. The density of data points within each cluster is analyzed, with outliers often appearing farther from the centroids.
-
-## Installation
 
